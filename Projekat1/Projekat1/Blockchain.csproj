@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Projekat1</RootNamespace>
-    <AssemblyName>Projekat1</AssemblyName>
+    <RootNamespace>Blockchain</RootNamespace>
+    <AssemblyName>Blockchain</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -43,19 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Block.cs" />
-    <Compile Include="Blockchain.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="Hasher.cs" />
-    <Compile Include="IClient.cs" />
-    <Compile Include="IMiner.cs" />
-    <Compile Include="Miner.cs" />
+    <Compile Include="MinerSM.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SmartContract.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{8d8d6f83-fd9d-4f61-a613-e1be97b9c45b}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

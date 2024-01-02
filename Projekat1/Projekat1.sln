@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekat1", "Projekat1\Projekat1.csproj", "{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Blockchain", "Projekat1\Blockchain.csproj", "{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContract", "SmartContract\SmartContract.csproj", "{101A80B9-8123-4863-B4B2-398F1E7FE292}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{8D8D6F83-FD9D-4F61-A613-E1BE97B9C45B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{0A7D8294-6DD4-433C-8874-9B17D1C8353F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D8D6F83-FD9D-4F61-A613-E1BE97B9C45B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8D6F83-FD9D-4F61-A613-E1BE97B9C45B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8D6F83-FD9D-4F61-A613-E1BE97B9C45B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8D6F83-FD9D-4F61-A613-E1BE97B9C45B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7D8294-6DD4-433C-8874-9B17D1C8353F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7D8294-6DD4-433C-8874-9B17D1C8353F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7D8294-6DD4-433C-8874-9B17D1C8353F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7D8294-6DD4-433C-8874-9B17D1C8353F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
