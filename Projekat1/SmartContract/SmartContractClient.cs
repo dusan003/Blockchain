@@ -23,9 +23,9 @@ namespace SmartContract
             string address = SmartContractMiner.Miners[minerNumber].Address + "/IMinerSM";
             NetTcpBinding binding = new NetTcpBinding();
 
-            ChannelFactory<IMinerSM> channel = new ChannelFactory<IMinerSM>(binding, address);
+            ChannelFactory<IMinerBlockhain> channel = new ChannelFactory<IMinerBlockhain>(binding, address);
 
-            IMinerSM proxy = channel.CreateChannel();
+            IMinerBlockhain proxy = channel.CreateChannel();
             proxy.CalculateTask(client);
         }
     }
