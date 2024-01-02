@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Projekat1", "Projekat1\Projekat1.csproj", "{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartContract", "SmartContract\SmartContract.csproj", "{101A80B9-8123-4863-B4B2-398F1E7FE292}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BE5FB7C4-AAB0-4DAD-B1FA-41EEE4CDC69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{101A80B9-8123-4863-B4B2-398F1E7FE292}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,7 @@
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\SmartContract.exe.config
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\SmartContract.exe
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\SmartContract.pdb
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.csproj.AssemblyReference.cache
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.csproj.CoreCompileInputs.cache
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.exe
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.pdb
