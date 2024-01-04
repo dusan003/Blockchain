@@ -1,7 +1,7 @@
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\bin\Debug\Common.dll.config
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\bin\Debug\Common.dll
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\bin\Debug\Common.pdb
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\obj\Debug\Common.csproj.AssemblyReference.cache
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\obj\Debug\Common.dll
-C:\Users\Ivan\Desktop\2.1\Projekat1-main\Projekat1\Common\obj\Debug\Common.pdb
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\bin\Debug\Common.dll.config
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\bin\Debug\Common.dll
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\bin\Debug\Common.pdb
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\obj\Debug\Common.dll
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\Common\obj\Debug\Common.pdb

@@ -5,3 +5,7 @@ C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug
 C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.csproj.CoreCompileInputs.cache
 C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.exe
 C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.pdb
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\Common.dll
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\Common.pdb
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\bin\Debug\Common.dll.config
+C:\Users\stojn\Desktop\PROJEKAT\Projekat1-main\Projekat1\SmartContract\obj\Debug\SmartContract.csproj.CopyComplete

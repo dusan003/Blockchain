@@ -51,7 +51,7 @@
     <Compile Include="Block.cs" />
     <Compile Include="Blockchain.cs" />
     <Compile Include="Client.cs" />
-    <Compile Include="IMinerBlockhain.cs" />
+    <Compile Include="IMinerSM.cs" />
     <Compile Include="ISmartContractClient.cs" />
     <Compile Include="ISmartContractMiner.cs" />
     <Compile Include="Miner.cs" />
