@@ -1,0 +1,11 @@
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Client.exe.config
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Client.exe
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Client.pdb
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Common.dll
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Common.pdb
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\bin\Debug\Common.dll.config
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\obj\Debug\Client.csproj.AssemblyReference.cache
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\obj\Debug\Client.csproj.CoreCompileInputs.cache
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\obj\Debug\Client.csproj.CopyComplete
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\obj\Debug\Client.exe
+C:\Users\stojn\Desktop\TEST\Projekat1-Ivkosss-upload-1\Projekat1\Client\obj\Debug\Client.pdb
