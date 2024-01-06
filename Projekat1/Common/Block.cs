@@ -32,7 +32,7 @@ namespace Common
 
             do
             {
-                // Generiraj random broj za Solution
+                // Generisi random broj za Solution
                 Solution = random.Next(int.MaxValue);
 
                 // Ponovno izračunaj hash s novim Solution
@@ -48,8 +48,7 @@ namespace Common
         {
             // Ponovno izračunaj hash s novim Solution
             Hash = CalculateHash();
-
-            // Provjeri uvjet da hash počinje s "000"
+            // Provjeri uslov da hash počinje s "0"
             return Hash.StartsWith("0");
         }
 
