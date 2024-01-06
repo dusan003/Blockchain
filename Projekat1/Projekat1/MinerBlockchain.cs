@@ -63,7 +63,7 @@ namespace Blockchain
             bool isValid = false;
             foreach (var item in miners)
             {
-                address = item.Address + "/IMinerSM";
+                address = item.Address + "/IMinerBlockchain";
                 binding = new NetTcpBinding();
 
                 ChannelFactory<IMinerBlockhain> channelMiner = new ChannelFactory<IMinerBlockhain>(binding, address);
@@ -73,13 +73,13 @@ namespace Blockchain
                 isValid = proxyMiner.ValidateTask(client, solution);
                 if (!isValid)
                 {
-                    Console.WriteLine("Not valid solution, can't solve.");
+                    Console.WriteLine("Solution is not valid, can't solve.");
                     return;
                 }
             }
             foreach (var item in miners)
             {
-                address = item.Address + "/IMinerSM";
+                address = item.Address + "/IMinerBlockchain";
                 binding = new NetTcpBinding();
 
                 ChannelFactory<IMinerBlockhain> channelMiner = new ChannelFactory<IMinerBlockhain>(binding, address);
@@ -102,8 +102,8 @@ namespace Blockchain
                 Blockchain.AddToChain(block);
             }
             reward++;
-            Console.WriteLine("Dodato bitcoin-a : 1");
-            Console.WriteLine("Ukupno stanje: " + reward);
+            Console.WriteLine("Added bitcoin : 1");
+            Console.WriteLine("Total bitcoins : " + reward);
         }
 
         public bool ValidateTask(Client client, int value)
@@ -115,11 +115,11 @@ namespace Blockchain
             bool validity = block.ValidateBlock(value);
             if (validity)
             {
-                Console.WriteLine("Valid block.");
+                Console.WriteLine("Block is valid.");
             }
             else
             {
-                Console.WriteLine("Not valid block");
+                Console.WriteLine("Block is not valid.");
             }
 
             return validity;

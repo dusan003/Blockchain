@@ -22,16 +22,16 @@ namespace Blockchain
             Miner miner = proxy.LoginMiner();
 
             // Start server for miner
-            using (ServiceHost host = new ServiceHost(typeof(MinerSM)))
+            using (ServiceHost host = new ServiceHost(typeof(MinerBlockchain)))
             {
-                address = miner.Address + "/IMinerSM";
+                address = miner.Address + "/IMinerBlockchain";
                 binding = new NetTcpBinding();
-                MinerSM.Id = miner.Id;
+                MinerBlockchain.Id = miner.Id;
 
-                host.AddServiceEndpoint(typeof(IMinerSM), binding, address);
+                host.AddServiceEndpoint(typeof(IMinerBlockhain), binding, address);
 
                 host.Open();
-                Console.WriteLine($"Miner je uspesno pokrenut sa id-om " + miner.Id + " na adresi : " + address);
+                Console.WriteLine($"Miner started successfully with id " + miner.Id + " on address : " + address);
                 Console.ReadLine();
                 host.Close();
             }

@@ -20,12 +20,12 @@ namespace SmartContract
             int minerNumber = rand.Next(numberOfMiners);
 
             Console.WriteLine("Choosing miner with id : " + SmartContractMiner.Miners[minerNumber].Id);
-            string address = SmartContractMiner.Miners[minerNumber].Address + "/IMinerSM";
+            string address = SmartContractMiner.Miners[minerNumber].Address + "/IMinerBlockchain";
             NetTcpBinding binding = new NetTcpBinding();
 
-            ChannelFactory<IMinerSM> channel = new ChannelFactory<IMinerSM>(binding, address);
+            ChannelFactory<IMinerBlockhain> channel = new ChannelFactory<IMinerBlockhain>(binding, address);
 
-            IMinerSM proxy = channel.CreateChannel();
+            IMinerBlockhain proxy = channel.CreateChannel();
             proxy.CalculateTask(client);
         }
     }
