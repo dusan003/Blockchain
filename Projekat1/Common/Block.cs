@@ -19,7 +19,7 @@ namespace Common
 
         public Block(Client client)
         {
-            Id = 0; // Initialize to zero, actual value will be set when added to the blockchain
+            Id = 0;
             ClientData = client;
             Timestamp = DateTime.UtcNow;
             Nonce = 0;
@@ -29,15 +29,10 @@ namespace Common
         public Random random = new Random();
         public bool Solve(out int solution)
         {
-
             do
             {
-                // Generisi random broj za Solution
                 Solution = random.Next(int.MaxValue);
-
-                // Ponovno izračunaj hash s novim Solution
                 Hash = CalculateHash();
-
             } while (!Hash.StartsWith("0"));
 
             solution = Solution;
@@ -46,9 +41,7 @@ namespace Common
 
         public bool ValidateBlock(int value)
         {
-            // Ponovno izračunaj hash s novim Solution
             Hash = CalculateHash();
-            // Provjeri uslov da hash počinje s "0"
             return Hash.StartsWith("0");
         }
 
@@ -63,7 +56,7 @@ namespace Common
                 StringBuilder builder = new StringBuilder();
                 for (int i = 0; i < hashBytes.Length; i++)
                 {
-                    builder.Append(hashBytes[i].ToString("x2")); // Konvertuj byte u heksadecimalni zapis
+                    builder.Append(hashBytes[i].ToString("x2"));
                 }
 
                 return builder.ToString();

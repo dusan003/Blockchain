@@ -30,9 +30,6 @@ namespace Client
                 counter++;
                 Thread.Sleep(2000);
             }
-
-
-            Console.ReadKey();
         }
     }
 }

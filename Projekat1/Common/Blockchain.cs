@@ -17,7 +17,6 @@ namespace Common
 
         public void AddToChain(Block block)
         {
-            // Set the block id and add it to the blockchain
             block.Id = Blocks.Count + 1;
             Blocks.Add(block);
         }
